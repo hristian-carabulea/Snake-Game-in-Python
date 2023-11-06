@@ -1,0 +1,20 @@
+# make sure pip and pyinstaller are installed / updated
+#
+#   pip --version
+#   pyinstaller --version
+#
+# cd to directory that contains your .py file
+# pyinstaller ...
+#                 -F          (all in 1 file)
+#                 -w          (removes terminal window)
+#                 -i icon.ico (adds custom icon to .exe)
+#                 Snake.py    (naem of your main python file)
+#
+# .exe is located in the dist folder
+# 
+#   - To change the icon of the exe program, use an .ico file
+#   - If needed, use icoconvert.com to convert images to ico files
+#   - pyinstaller -F -w -i icon.ico Snake.py
+#
+# ##################################################
+# 
